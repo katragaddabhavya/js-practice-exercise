@@ -1,0 +1,97 @@
+1. For Adding new movie with id 514
+- Request URL --> http://localhost:3000/movies
+- HTTP Method --> POST
+- Request Body
+    - Content Type --> JSON
+    - Body
+    ```json
+    {
+            "id": 514,
+            "movieTitle": "Father of the Bride",
+            "yearOfRelease": 2021,
+            "director": "Gary Alazraki",
+            "cast": [
+                {
+                    "actorName": "Andy Garcia Screen name: Billy Herrera",
+                    "onScreenName": "Bouc"
+                },
+                {
+                    "actorName": "Gloria Estefan Screen name: Ingrid Herrera",
+                    "onScreenName": "Euphemia Bouc"
+                },
+                {
+                    "actorName": "Adria Arjona Screen name:  Sofia Herrera",
+                    "onScreenName": "Hercule Poirot"
+                }
+            ],
+            "rating":"5.9 / 10",
+            "genre": "Adventure",
+            "isOnOtt": false,
+            "Ott": null
+        }
+   Response Expected --> JSON Object
+    ```json
+         {
+    "id": 514,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2021,
+    "director": "Gary Alazraki",
+    "cast": [
+        {
+            "actorName": "Andy Garcia Screen name: Billy Herrera",
+            "onScreenName": "Bouc"
+        },
+        {
+            "actorName": "Gloria Estefan Screen name: Ingrid Herrera",
+            "onScreenName": "Euphemia Bouc"
+        },
+        {
+            "actorName": "Adria Arjona Screen name:  Sofia Herrera",
+            "onScreenName": "Hercule Poirot"
+        }
+    ],
+    "rating": "5.9 / 10",
+    "genre": "Adventure",
+    "isOnOtt": false,
+    "Ott": null
+}
+    ```
+    - Status Code --> 201
+    - Status Message --> Created
+
+2. For Adding new movie with id 503
+- Request URL --> http://localhost:3000/movies
+- HTTP Method --> POST
+- Request Body
+    - Content Type --> JSON
+    - Body
+    ```json
+    {
+            "id": 503,
+            "movieTitle": "Spiderhead",
+            "yearOfRelease": 2022,
+            "director": "Joseph Kosinski",
+            "cast": [
+                {
+                    "actorName": "Chris Hemsworth Screen name: Abnesti",
+                    "onScreenName": "Bouc"
+                },
+                {
+                    "actorName": " Miles Teller Screen name: Jeff",
+                    "onScreenName": "Euphemia Bouc"
+                },
+                {
+                    "actorName": "Jurnee Smollett Screen name: Lizzy",
+                    "onScreenName": "Hercule Poirot"
+                }
+            ],
+            "rating":"5.4 / 10",
+            "genre": "Action",
+            "isOnOtt": false,
+            "Ott": null
+        }
+    ```
+- Response Expected --> Error
+    - Error Message --> Error: Insert failed, duplicate id
+    - Status Code --> 500
+    - Status Message --> Internal Server Error

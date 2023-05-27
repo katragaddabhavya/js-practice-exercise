@@ -1,0 +1,97 @@
+1. To update movie for id 504
+- Request URL --> http://localhost:3000/movies/504
+- HTTP Method --> PUT
+- Request Body
+    - Content Type --> JSON
+    - Body
+    json
+    {
+            "id": 504,
+            "movieTitle": "Father of the Bride",
+            "yearOfRelease": 2022,
+            "director": "Gary Alazraki",
+            "cast": [
+                {
+                    "actorName": "Andy Garcia Screen name:  Billy Herrera",
+                    "onScreenName": "Bouc"
+                },
+                {
+                    "actorName": " Gloria Estefan  Screen name:  Ingrid Herrera",
+                    "onScreenName": "Euphemia Bouc"
+                },
+                {
+                    "actorName": "Adria Arjona Screen name:  Sofia Herrera",
+                    "onScreenName": "Hercule Poirot"
+                }
+            ],
+            "rating":"5.9 / 10",
+            "genre": "Comedy",
+            "isOnOtt": "Yes",
+            "Ott": "Netflix"
+        }
+   Response Expected --> JSON Object
+    json
+         {
+    "id": 504,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2022,
+    "director": "Gary Alazraki",
+    "cast": [
+        {
+            "actorName": "Andy Garcia Screen name:  Billy Herrera",
+            "onScreenName": "Bouc"
+        },
+        {
+            "actorName": " Gloria Estefan  Screen name:  Ingrid Herrera",
+            "onScreenName": "Euphemia Bouc"
+        },
+        {
+            "actorName": "Adria Arjona Screen name:  Sofia Herrera",
+            "onScreenName": "Hercule Poirot"
+        }
+    ],
+    "rating": "5.9 / 10",
+    "genre": "Comedy",
+    "isOnOtt": "Yes",
+    "Ott": "Netflix"
+}
+    
+    - Status Code --> 200
+    - Status Message --> OK
+
+2. To update movie for id 500
+- Request URL --> http://localhost:3000/movies/500
+- HTTP Method --> POST
+- Request Body
+    - Content Type --> JSON
+    - Body
+    json
+    {
+            "id": 500,
+            "movieTitle": "Top Gun",
+            "yearOfRelease": 1986,
+            "director": "Tony Scott",
+            "cast": [
+                {
+                    "actorName": "Tom Cruise Screen name: Maverick",
+                    "onScreenName": "Bouc"
+                },
+                {
+                    "actorName": " Tim Robbins Screen name:  Merlin",
+                    "onScreenName": "Euphemia Bouc"
+                },
+                {
+                    "actorName": "Kelly McGillis Screen name:  Charlie",
+                    "onScreenName": "Hercule Poirot"
+                }
+            ],
+            "rating":"6.9 / 10",
+            "genre": "Action",
+            "isOnOtt": "Yes",
+            "Ott": "Netflix"
+        }
+    ```
+- 
+    - Status Code --> 404
+    - Status Message --> Not Found
+    {}

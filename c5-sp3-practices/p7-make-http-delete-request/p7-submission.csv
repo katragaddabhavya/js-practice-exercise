@@ -1,0 +1,19 @@
+"HTTP Request			",Delete movie by id 501,Delete movie by id 550
+1. Delete movie by id 501
+- Request URL --> http://localhost:3000/movies/501
+- HTTP Method --> DELETE
+- Response Expected --> JSON Object
+    ```json
+    {}
+    ```
+    - Status Code --> 200
+    - Status Message --> OK
+2. Delete movie by id 550
+- Request URL --> http://localhost:3000/movies/550
+- HTTP Method --> DELETE
+- Response Expected --> JSON Object
+    ```json
+    {}    
+    ```
+    - Status Code --> 404
+    - Status Message --> Not Found

@@ -1,0 +1,64 @@
+{
+    "flights": [{
+        "id": 1,
+        "flight no": 1,
+        "airlines":"Delta" ,
+        " departure-time":"06:00:00" ,
+        "arrival-time":"09:16:00" ,
+        " isDirect":"true" ,
+        "departure-from ":"ord" ,
+        "arrival-at":"LGA" 
+    },
+    {
+        "id": 2,
+        "flight no": 2,
+        "airlines":"united airlines" ,
+        " departure-time":"19:45:00" ,
+        "arrival-time":"23:10:00" ,
+        " isDirect":"true" ,
+        "departure-from ":"ord" ,
+        "arrival-at":"LGA"
+    },
+    {
+        "id": 3,
+        "flight no": 3,
+        "airlines":"united airlines" ,
+        " departure-time":"12:45:00" ,
+        "arrival-time":"18:09:00" ,
+        "stop overs":1 ,
+        " isDirect":"false" ,
+        "departure-from ":"ord" ,
+        "arrival-at":"LGA" 
+    },
+    {
+        "id": 4,
+        "flight no": 4,
+        "airlines":"america airlines" ,
+        " departure-time":"10:30:00" ,
+        "arrival-time":"13:59:00" ,
+        " isDirect":"true" ,
+        "departure-from ":"ord" ,
+        "arrival-at":"JFK" 
+    },
+    {
+        "id": 5,
+        "flight no": 5,
+        "airlines":"delta airlines" ,
+        " departure-time":"08:30:00" ,
+        "arrival-time":"11:48:00" ,
+        " isDirect":"true" ,
+        "departure-from ": "ord",
+        "arrival-at":"LGA" 
+    },
+    {
+        "id": 6,
+        "flight no": 6,
+        "airlines":"american airlines" ,
+        " departure-time":"13:48:00" ,
+        "arrival-time":"16:48:00" ,
+        " isDirect":"true" ,
+        "departure-from ":"ord" ,
+        "arrival-at":"EWR" 
+    }
+    ]
+}
